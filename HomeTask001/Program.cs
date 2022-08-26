@@ -28,3 +28,16 @@ if( numb3 > max )
     max = numb3;
 
 Console.WriteLine($"Task-04  Numbers {numb1}; {numb2}; {numb3}. Max = {max}");
+
+// Задача 6: Напишите программу, которая на вход принимает число и выдаёт, 
+// является ли число чётным (делится ли оно на два без остатка).
+// 4 -> да
+// -3 -> нет
+// 7 -> нет  
+
+int number = new Random().Next(-20, 20);
+
+if( number % 2 == 0 )
+    Console.WriteLine($"Task-06  Number {number} is even. => Yes ");
+else
+    Console.WriteLine($"Task-06  Number {number} is odd. => No ");
