@@ -8,8 +8,23 @@ int num1 = new Random().Next(0, 100);
 int num2 = new Random().Next(0, 100);
 
 if( num1 > num2 )
-    Console.WriteLine($"Number {num1} > {num2}. Max = {num1}");
+    Console.WriteLine($"Task-02  Number {num1} > {num2}. Max = {num1}");
 else
-    Console.WriteLine($"Number {num1} < {num2}. Max = {num2}");
+    Console.WriteLine($"Task-02  Number {num1} < {num2}. Max = {num2}");
 
+// Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт 
+// максимальное из этих чисел.
+// 2, 3, 7 -> 7
+// 44 5 78 -> 78
+// 22 3 9 -> 22
+int numb1 = new Random().Next(0, 100);
+int numb2 = new Random().Next(0, 100);
+int numb3 = new Random().Next(0, 100);
 
+int max = numb1;
+if( numb2 > max )
+    max = numb2;
+if( numb3 > max )
+    max = numb3;
+
+Console.WriteLine($"Task-04  Numbers {numb1}; {numb2}; {numb3}. Max = {max}");
