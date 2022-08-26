@@ -15,8 +15,3 @@ else
     Console.Write(Math.Pow(num, a)); // num ** a
     Console.Write($"\n a =  {a}  Number =  {num}\n\n");
 }
-
-
-
-
-
