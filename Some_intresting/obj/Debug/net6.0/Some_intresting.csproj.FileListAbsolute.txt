@@ -1,0 +1,15 @@
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\Some_intresting\bin\Debug\net6.0\Some_intresting.exe
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\Some_intresting\bin\Debug\net6.0\Some_intresting.deps.json
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\Some_intresting\bin\Debug\net6.0\Some_intresting.runtimeconfig.json
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\Some_intresting\bin\Debug\net6.0\Some_intresting.dll
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\Some_intresting\bin\Debug\net6.0\Some_intresting.pdb
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\Some_intresting\obj\Debug\net6.0\Some_intresting.csproj.AssemblyReference.cache
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\Some_intresting\obj\Debug\net6.0\Some_intresting.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\Some_intresting\obj\Debug\net6.0\Some_intresting.AssemblyInfoInputs.cache
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\Some_intresting\obj\Debug\net6.0\Some_intresting.AssemblyInfo.cs
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\Some_intresting\obj\Debug\net6.0\Some_intresting.csproj.CoreCompileInputs.cache
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\Some_intresting\obj\Debug\net6.0\Some_intresting.dll
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\Some_intresting\obj\Debug\net6.0\refint\Some_intresting.dll
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\Some_intresting\obj\Debug\net6.0\Some_intresting.pdb
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\Some_intresting\obj\Debug\net6.0\Some_intresting.genruntimeconfig.cache
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\Some_intresting\obj\Debug\net6.0\ref\Some_intresting.dll
