@@ -1,4 +1,4 @@
-﻿// This is branch Lesson-1
+﻿// This is branch Main?
 double a = 50;
 // int b = 70;
 
@@ -15,7 +15,7 @@ else
     Console.Write(Math.Pow(num, a)); // num ** a
     Console.Write($"\n a =  {a}  Number =  {num}\n\n");
 }
-
+// 
 
 
 
