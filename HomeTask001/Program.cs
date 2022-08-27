@@ -7,7 +7,7 @@
 int num1 = new Random().Next(0, 100);
 int num2 = new Random().Next(0, 100);
 
-if( num1 > num2 )
+if (num1 > num2)
     Console.WriteLine($"Task-02  Number {num1} > {num2}. Max = {num1}");
 else
     Console.WriteLine($"Task-02  Number {num1} < {num2}. Max = {num2}");
@@ -22,9 +22,9 @@ int numb2 = new Random().Next(0, 100);
 int numb3 = new Random().Next(0, 100);
 
 int max = numb1;
-if( numb2 > max )
+if (numb2 > max)
     max = numb2;
-if( numb3 > max )
+if (numb3 > max)
     max = numb3;
 
 Console.WriteLine($"Task-04  Numbers {numb1}; {numb2}; {numb3}. Max = {max}");
@@ -37,7 +37,7 @@ Console.WriteLine($"Task-04  Numbers {numb1}; {numb2}; {numb3}. Max = {max}");
 
 int number = new Random().Next(-20, 20);
 
-if( number % 2 == 0 )
+if (number % 2 == 0)
     Console.WriteLine($"Task-06  Number {number} is even. => Yes ");
 else
     Console.WriteLine($"Task-06  Number {number} is odd. => No ");
@@ -52,9 +52,9 @@ int i = 2;
 
 Console.Write($"Task-08  Number {numberN} ->");
 
-while ( i <= numberN )
+while (i <= numberN)
 {
-    if(i % 2 == 0)
+    if (i % 2 == 0)
         Console.Write($" {i},");
     i++;
 }
