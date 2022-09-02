@@ -1,0 +1,15 @@
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\SeminarWork\bin\Debug\net6.0\SeminarWork.exe
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\SeminarWork\bin\Debug\net6.0\SeminarWork.deps.json
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\SeminarWork\bin\Debug\net6.0\SeminarWork.runtimeconfig.json
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\SeminarWork\bin\Debug\net6.0\SeminarWork.dll
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\SeminarWork\bin\Debug\net6.0\SeminarWork.pdb
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\SeminarWork\obj\Debug\net6.0\SeminarWork.csproj.AssemblyReference.cache
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\SeminarWork\obj\Debug\net6.0\SeminarWork.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\SeminarWork\obj\Debug\net6.0\SeminarWork.AssemblyInfoInputs.cache
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\SeminarWork\obj\Debug\net6.0\SeminarWork.AssemblyInfo.cs
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\SeminarWork\obj\Debug\net6.0\SeminarWork.csproj.CoreCompileInputs.cache
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\SeminarWork\obj\Debug\net6.0\SeminarWork.dll
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\SeminarWork\obj\Debug\net6.0\refint\SeminarWork.dll
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\SeminarWork\obj\Debug\net6.0\SeminarWork.pdb
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\SeminarWork\obj\Debug\net6.0\SeminarWork.genruntimeconfig.cache
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\SeminarWork\obj\Debug\net6.0\ref\SeminarWork.dll
