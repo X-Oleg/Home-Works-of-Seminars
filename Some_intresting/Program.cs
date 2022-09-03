@@ -11,14 +11,14 @@ if (!(double.TryParse(Console.ReadLine(), out a)))
     Console.Write("Don't Number!!\n\n");
 else
 {
-    Console.WriteLine(num +" ** " + a + "\n stepen");
+    Console.WriteLine(num + " ** " + a + "\n stepen");
     Console.Write(Math.Pow(num, a)); // num ** a
     Console.Write($"\n a =  {a}  Number =  {num}\n\n");
 }
 */
 
-//          Seminar 2
-/* -------------------------------------------------------
+/*          Seminar 2
+// -------------------------------------------------------
 int number = new Random().Next(10000, 100000);
 
 // функция возвращает цифру стоящую на n месте (н) справа в числе
@@ -67,15 +67,15 @@ else
     Console.WriteLine($"{n1} не кратно {n2}, остаток {n1 % n2}");
 */
 
-//                  Lecture 3
-/* ----------------------------------------------------------
+/*                  Lecture 3
+// ----------------------------------------------------------
 
 //  two size matrix
 void PrintArray(int[,] matr)
 {
-    for(int i=0; i < matr.GetLength(0); i++)
+    for (int i = 0; i < matr.GetLength(0); i++)
     {
-        for(int j=0; j < matr.GetLength(1); j++)
+        for (int j = 0; j < matr.GetLength(1); j++)
         {
             Console.Write($"{matr[i, j]} - ");
         }
@@ -85,22 +85,21 @@ void PrintArray(int[,] matr)
 
 void FillArray(int[,] matr)
 {
-    for(int i=0; i < matr.GetLength(0); i++) // 0 - row
+    for (int i = 0; i < matr.GetLength(0); i++) // 0 - row
     {
-        for(int j=0; j < matr.GetLength(1); j++)  // 1 - column
+        for (int j = 0; j < matr.GetLength(1); j++)  // 1 - column
         {
-            matr[i,j] = new Random().Next(1, 10);
+            matr[i, j] = new Random().Next(1, 10);
         }
-        
+
     }
 }
 
-int[,] matrix = new int[3,4];
+int[,] matrix = new int[3, 4];
 PrintArray(matrix);
 FillArray(matrix);
 Console.WriteLine();
 PrintArray(matrix);
-*/
 
 // Recursion
 
@@ -116,10 +115,159 @@ Console.WriteLine(Factorial(10));
 
 double Fibonachy(int n)
 {
-    if(n == 1 || n == 2) return 1;
-    else return Fibonachy(n-1) + Fibonachy(n-2);
+    if (n == 1 || n == 2) return 1;
+    else return Fibonachy(n - 1) + Fibonachy(n - 2);
 }
-for(int i =1; i < 10; i++)
+for (int i = 1; i < 10; i++)
     Console.WriteLine(Fibonachy(i));
 
+*/
+
+/*              Seminar 03
+// ----------------------------------------------------
+
+
+int Q = 0;
+Console.Write("Write squeare: ");
+int.TryParse(Console.ReadLine(), out Q);
+
+switch (Q)
+{
+    case 1:
+        Console.Write("X > 0 && Y > 0");
+        break;
+    case 2:
+        Console.Write("X < 0 && Y > 0");
+        break;
+    case 3:
+        Console.Write("X < 0 && Y < 0");
+        break;
+    case 4:
+    case 7:
+        Console.Write("X > 0 && Y < 0");
+        break;
+    default:
+        Console.Write("No entry!");
+        break;
+}
+
+Console.Write("\n");
+
+string QuarterCondition(int q)
+{
+    switch (q)
+    {
+        case 1:
+            return ("X > 0 && Y > 0");
+        case 2:
+            return ("X < 0 && Y > 0");
+        case 3:
+            return ("X < 0 && Y < 0");
+        case 4:
+        case 7:
+            return ("X > 0 && Y < 0");
+        default:
+            return ("No entry!");
+    }
+}
+
+Console.Write(QuarterCondition(Q));
+
+// Distance 
+
+int[] A = { 7, -5 };
+int[] B = { 1, -1 };
+
+double Distance(int[] a, int[] b)
+{
+    return Math.Sqrt(Math.Pow((a[0] - b[0]), 2) + Math.Pow((a[1] - b[1]), 2));
+}
+
+Console.Write(Distance(A, B));
+
+void SquareLine()
+{
+    Console.Write("Insert number N: ");
+    int.TryParse(Console.ReadLine(), out int N);
+    for (int i = 1; i <= N; Console.Write($"{i * i} "), i++) ;
+}
+
+SquareLine();
+*/
+
+
+/*              Seminar 04
+// ----------------------------------------------------
+
+// Count digits of number
+Console.Write("Insert number A: ");
+int A = 0;
+int.TryParse(Console.ReadLine(), out A);
+
+int DigitCount(int a)
+{
+    int k = 0;
+    while (a > 0)
+    {
+        a /= 10;
+        k++;
+    }
+    return k;
+}
+
+Console.Write($" {DigitCount(A)} digit in your number {A} \n");
+//
+// Factorial in cicle
+Console.Write("Insert number F: ");
+int F = 0;
+int.TryParse(Console.ReadLine(), out F);
+
+double Factoriall(int f)
+{
+    double result = 1;
+    for (int i = 1; i <= f; result *= i, i++) ;
+    return result;
+}
+
+Console.Write($" Factorial {F}! = {Factoriall(F)} \n");
+
+// Function Create Array
+int[] array = new int[8];
+
+void CreateArray(int[] arr)
+{
+    for (int i = 0; i < arr.Length; i++)
+        arr[i] = new Random().Next(2);
+}
+
+CreateArray(array);
+foreach (var el in array)
+    Console.Write($"{el} - ");
+
+//
+
+int A = 10;
+
+void RecursPrint(int i, int a)
+{
+    Console.Write($"{i} ");
+    if (i < a)
+        RecursPrint(i + 1, a);
+}
+
+RecursPrint(3, A);
+
+int RecursSum(int i, int a, int sum = 0)
+{
+    if (i <= a)
+        return RecursSum(i + 1, a, sum + i);
+        return sum;
+}
+Console.Write($"Sum = {RecursSum(3, A)} \n");
+
+*/
+
+/*            Seminar 05
+// -----------------------------------------------
+*/
 
