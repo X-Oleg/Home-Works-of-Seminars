@@ -269,5 +269,85 @@ Console.Write($"Sum = {RecursSum(3, A)} \n");
 
 /*            Seminar 05
 // -----------------------------------------------
+//
+
+List<string> array = new List<string> { "1", "2", "3" };
+
+foreach (var element in array)
+    Console.Write($"{element} - ");
+
+// ----- строку в массив...
+
+string user = Console.ReadLine()!;
+int[] arrayStr = new int[user.Length];
+
+int i = 0;
+foreach (var elem in user)
+{
+    if (elem >= '0' && elem <= '9')
+    {
+        string temp = "";
+        temp += elem;
+        arrayStr[i] = Convert.ToInt32(temp);
+    }
+    i++;
+}
+
+foreach (var el in arrayStr)
+    Console.Write($"{el} ");
+
+// сумма положит и отицат элементов массива ТЕРНАРНЫЕ опер
+
+int[] arrayN = new int[12];
+for (int j = 0; j < arrayN.Length; j++)
+    arrayN[j] = new Random().Next(-9, 10);
+foreach (var elt in arrayN)
+    Console.Write($"{elt} ");
+
+int posSum = 0;
+int negSum = 0;
+
+foreach (var elt in arrayN)
+{
+    // if (elt > 0)
+    //     posSum += elt;
+    // else
+    //     negSum += elt;
+    posSum += elt > 0 ? elt : 0;
+    negSum += elt < 0 ? elt : 0;
+}
+
+Console.Write($"\nPositive Sum = {posSum}\nNegative Sum = {negSum}\n");
+
+int aa = -20;
+int bb = aa > 0 ? (aa < 10 ? 10 : 5) :2;
+// -------- !!!!! -------------
 */
+// найти произведение парных от центра чисел массива
+
+int[] arrayRn = new int[new Random().Next(5, 9)];
+
+// Console.Write("Insert number for search: ");
+// int nn = 0;
+// int.TryParse(Console.ReadLine(), out nn);
+
+for (int i = 0; i < arrayRn.Length; i++)
+{
+    arrayRn[i] = new Random().Next(0, 10);
+    Console.Write($"{arrayRn[i]} ");
+}
+
+Console.Write("\n");
+
+for (int j = 0; j < (arrayRn.Length) / 2; j++)
+{
+    Console.Write($"{arrayRn[j] * arrayRn[arrayRn.Length - 1 - j]}  ");
+}
+if (arrayRn.Length % 2 != 0)
+    Console.Write($"{arrayRn[(arrayRn.Length) / 2]}");
+
+
+
+
+
 
