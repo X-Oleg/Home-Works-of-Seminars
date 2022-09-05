@@ -199,7 +199,7 @@ SquareLine();
 /*              Seminar 04
 // ----------------------------------------------------
 
-// Count digits of number
+// Count digits of number  -  Подсчет цифр в числе
 Console.Write("Insert number A: ");
 int A = 0;
 int.TryParse(Console.ReadLine(), out A);
@@ -217,7 +217,7 @@ int DigitCount(int a)
 
 Console.Write($" {DigitCount(A)} digit in your number {A} \n");
 //
-// Factorial in cicle
+// Factorial in cicle   ----  Факториал (в цикле)
 Console.Write("Insert number F: ");
 int F = 0;
 int.TryParse(Console.ReadLine(), out F);
@@ -296,7 +296,7 @@ foreach (var elem in user)
 foreach (var el in arrayStr)
     Console.Write($"{el} ");
 
-// сумма положит и отицат элементов массива ТЕРНАРНЫЕ опер
+// сумма положит и отицат элементов массива ТЕРНАРНЫЕ опер  !!!!!
 
 int[] arrayN = new int[12];
 for (int j = 0; j < arrayN.Length; j++)
@@ -322,7 +322,7 @@ Console.Write($"\nPositive Sum = {posSum}\nNegative Sum = {negSum}\n");
 int aa = -20;
 int bb = aa > 0 ? (aa < 10 ? 10 : 5) :2;
 // -------- !!!!! -------------
-*/
+
 // найти произведение парных от центра чисел массива
 
 int[] arrayRn = new int[new Random().Next(5, 9)];
@@ -346,8 +346,131 @@ for (int j = 0; j < (arrayRn.Length) / 2; j++)
 if (arrayRn.Length % 2 != 0)
     Console.Write($"{arrayRn[(arrayRn.Length) / 2]}");
 
+*/
+
+/*            Seminar 06
+// -----------------------------------------------
+*/
+
+// Function Fill Array  -  заполнить массив
+int[] array1 = new int[8];
+
+void FillArray(int[] arr, int min = 0, int max = 10)
+{
+    for (int i = 0; i < arr.Length; i++)
+        arr[i] = new Random().Next(min, max + 1);
+}
+
+FillArray(array1);
+foreach (var el in array1)
+    Console.Write($"{el}, ");
+Console.Write("\n");
+//
+
+// Function Create Array - Создать массив
+int[] array2 = new int[8];
+
+int[] CreateArray(int size, int min = 0, int max = 9)
+{
+    int[] arr2 = new int [size];
+    for (int i = 0; i < size; i++)
+        arr2[i] = new Random().Next(min, max + 1);
+    return arr2;
+}
+
+array2 = CreateArray(7, -9, 9);
+foreach (var el in array2)
+    Console.Write($"{el}, ");
+Console.Write("\n");
+
+// Разворот массива  2  sorts
+
+void ReverseArray(int[] arr)
+{
+    for (int i = 0; i < arr.Length / 2; i++)
+    {
+        int temp = arr[i];
+        arr[i] = arr[arr.Length - 1 - i];
+        arr[arr.Length - 1 - i] = temp;
+    }
+}
+
+ReverseArray(array1);
+foreach (var el in array1)
+    Console.Write($"{el}, ");
+Console.Write("\n");
+
+// 2 variant
+
+int[] ReverseArray2(int[] arr)
+{
+    int size = arr.Length;
+    int[] arrTmp = new int [size];
+    for (int i = 0; i < size; i++)
+        arrTmp[i] = arr[size - 1 - i];
+    return arrTmp;
+}
+
+array2 = ReverseArray2(array2);
+foreach (var el in array2)
+    Console.Write($"{el}, ");
+Console.Write("\n");
+
+//   Проверка возможности создать треугольник с заданными сторонами
+
+bool CheckTriangle(int a, int b, int c)
+{
+    return ( a < b + c && b < a + c && c < a + b );
+}
+
+int[] triangle = CreateArray(3, 2);
+foreach (var el in triangle)
+    Console.Write($"{el}, ");
+
+if (CheckTriangle(triangle[0], triangle[1], triangle[2]))
+    Console.Write("Треугольник существует");
+else
+    Console.Write("Треугольник НЕ существует");
+Console.Write("\n");
 
 
+// перевод десятичного в двоичное число
 
+int numb2 = new Random().Next(100);
+Console.Write(numb2);
+Console.Write("\n");
 
+string n2 = "";
 
+while (numb2 > 0)
+{
+    n2 += numb2 % 2;
+    numb2 /= 2;
+}
+
+Console.Write(n2); // проверка что записалось (но в обратном порядке)
+Console.Write("\n");
+// теперь необходимо развернуть строку... (можно хранить в массиве инт)
+
+//  Фибоначи без рекрсии
+
+Console.Write("Введите number: ");
+int numbF = 0;
+int.TryParse(Console.ReadLine(), out numbF);
+
+void Fibonachy2(int inputF)
+{
+    ulong startNum0 = 0;
+    ulong startNum1 = 1;
+    ulong temp = 0;
+    Console.Write($"{startNum0}, {startNum1}, ");
+    for ( int i = 1; i <= inputF - 2; i++)
+    {
+        temp = startNum0 + startNum1;
+        Console.Write($"{temp}, ");
+        startNum0 = startNum1;
+        startNum1 = temp;
+    }
+}
+
+Fibonachy2(numbF);
