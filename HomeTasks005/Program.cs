@@ -43,7 +43,7 @@ int[] arr36 = new int[size36];
 FillArray(arr36, -99, 100); // функция определена выше в задаче 34
 
 int sum36 = 0;
-for( int i = 0; i < size36; i+=2)
+for (int i = 0; i < size36; i += 2)
     sum36 += arr36[i];
 
 Console.Write("[");
@@ -67,16 +67,16 @@ FillArray(arr38, 0, 100); // функция определена выше в з�
 
 int max38 = arr38[1];
 int min38 = arr38[0];
-if( arr38[0] > arr38[1] )
+if (arr38[0] > arr38[1])
 {
     max38 = arr38[0];
     min38 = arr38[1];
 }
 
-for( int i =2; i < size38; i++)
+for (int i = 2; i < size38; i++)
 {
-    if( arr38[i] > max38 ) max38 = arr38[i];
-    if( arr38[i] < min38 ) min38 = arr38[i];
+    if (arr38[i] > max38) max38 = arr38[i];
+    if (arr38[i] < min38) min38 = arr38[i];
 }
 
 Console.Write("[");
