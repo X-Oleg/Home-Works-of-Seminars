@@ -1,0 +1,15 @@
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\HomeTasks009\bin\Debug\net6.0\HomeTasks009.exe
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\HomeTasks009\bin\Debug\net6.0\HomeTasks009.deps.json
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\HomeTasks009\bin\Debug\net6.0\HomeTasks009.runtimeconfig.json
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\HomeTasks009\bin\Debug\net6.0\HomeTasks009.dll
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\HomeTasks009\bin\Debug\net6.0\HomeTasks009.pdb
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\HomeTasks009\obj\Debug\net6.0\HomeTasks009.csproj.AssemblyReference.cache
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\HomeTasks009\obj\Debug\net6.0\HomeTasks009.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\HomeTasks009\obj\Debug\net6.0\HomeTasks009.AssemblyInfoInputs.cache
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\HomeTasks009\obj\Debug\net6.0\HomeTasks009.AssemblyInfo.cs
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\HomeTasks009\obj\Debug\net6.0\HomeTasks009.csproj.CoreCompileInputs.cache
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\HomeTasks009\obj\Debug\net6.0\HomeTasks009.dll
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\HomeTasks009\obj\Debug\net6.0\refint\HomeTasks009.dll
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\HomeTasks009\obj\Debug\net6.0\HomeTasks009.pdb
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\HomeTasks009\obj\Debug\net6.0\HomeTasks009.genruntimeconfig.cache
+D:\Data-work\GB-2021\3.1 Основной курс Аналитика\4. С#\Seminar_HW\HomeTasks009\obj\Debug\net6.0\ref\HomeTasks009.dll

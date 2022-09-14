@@ -372,7 +372,7 @@ int[] array2 = new int[8];
 
 int[] CreateArray(int size, int min = 0, int max = 9)
 {
-    int[] arr2 = new int [size];
+    int[] arr2 = new int[size];
     for (int i = 0; i < size; i++)
         arr2[i] = new Random().Next(min, max + 1);
     return arr2;
@@ -405,7 +405,7 @@ Console.Write("\n");
 int[] ReverseArray2(int[] arr)
 {
     int size = arr.Length;
-    int[] arrTmp = new int [size];
+    int[] arrTmp = new int[size];
     for (int i = 0; i < size; i++)
         arrTmp[i] = arr[size - 1 - i];
     return arrTmp;
@@ -420,7 +420,7 @@ Console.Write("\n");
 
 bool CheckTriangle(int a, int b, int c)
 {
-    return ( a < b + c && b < a + c && c < a + b );
+    return (a < b + c && b < a + c && c < a + b);
 }
 
 int[] triangle = CreateArray(3, 2);
@@ -464,7 +464,7 @@ void Fibonachy2(int inputF)
     ulong startNum1 = 1;
     ulong temp = 0;
     Console.Write($"{startNum0}, {startNum1}, ");
-    for ( int i = 1; i <= inputF - 2; i++)
+    for (int i = 1; i <= inputF - 2; i++)
     {
         temp = startNum0 + startNum1;
         Console.Write($"{temp}, ");

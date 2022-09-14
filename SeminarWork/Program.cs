@@ -67,3 +67,66 @@
 // Console.WriteLine();
 // PrintArray((array));
 
+// Рекурсия
+// вывести натур числа от 1 до N
+
+int N;
+Console.Write("Insert number N: ");
+int.TryParse(Console.ReadLine(), out N);
+
+Console.WriteLine($"{PrintNumbers(1, N)}");
+
+string PrintNumbers(int start, int end)
+{
+    if (start >= end)
+        return start.ToString();
+    return $"{start} {PrintNumbers(start + 1, end)}";
+}
+
+// вывести натур числа от N до M
+
+int M;
+Console.Write("Insert number M: ");
+int.TryParse(Console.ReadLine(), out M);
+
+string PrintNumbers2(int start, int end)
+{
+    if (start >= end)
+        return start.ToString();
+    if (start > 0)
+        return $"{start} {PrintNumbers2(start + 1, end)}";
+    else
+        start = 1;
+    return PrintNumbers2(start, end);
+}
+
+Console.WriteLine($"{PrintNumbers2(N, M)}");
+
+// прогр, кот принимает число и возвращает сумму его цифр
+
+int num;
+Console.Write("Insert number : ");
+int.TryParse(Console.ReadLine(), out num);
+
+int SumDigits(int n)
+{
+    if (n > 10) // or 0
+    {
+        return n % 10 + SumDigits(n / 10);
+    }
+    return n % 10;
+}
+
+Console.WriteLine(SumDigits(num));
+
+// возведение в степень M ** N
+
+int Stepen(int numb, int grade)
+{
+    if (grade > 1)
+        return numb * Stepen(numb, grade - 1);
+    return numb;
+}
+
+Console.WriteLine(Stepen(M, N));
+
